@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:200,200i,400,400i,600,600i,700,700i|Raleway:200,200i,400,400i,500,500i,600,600i,700,700i|Satisfy');
+
+.navcls{
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .navcls a {
+    color: #ffb727;
+    text-decoration: none;
+  }
+  
+  .navcls a:hover {
+    color: #ffc85a;
+    text-decoration: none;
+  }
+  
+  .navcls  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+// // Comn till Here
+
+  .navcls #header {
+    z-index: 997;
+    transition: all 0.5s;
+    height: 70px;
+    background: rgba(25, 28, 31, 0.8) !important;
+  }
+
+  .navcls #header.header-scrolled {
+    height: 60px;
+    // background: rgba(25, 28, 31, 0.8) !important;
+  }
+
+  .navcls #header.header-transparent {
+    background: transparent;
+  }
+
+  .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28255, 255, 255, 0.55%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e");
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+    // Previous
+    font-size: 12px;
+    line-height: 0;
+    color: #fff;
+        cursor: pointer;
+        line-height: 0;
+        transition: 0.5s;
+
+
+  }
+  .navbar-toggler{
+    margin-top: 15px;
+  }
+  
+  .collapsed{
+    margin-top: 0px;
+  }
+ 
+  
+
+  .navcls .navbar {
+    padding: 0;
+  }
+  
+  .navcls  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .navcls .navbar li {
+    position: relative;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  
+  .navcls .navbar a {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 10px 15px;
+    color: #fff;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 12px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  
+  // .navcls .navbar-toggler-icon {
+   
+  // }
+  
+  .navcls .navbar a:hover, .navbar .active, .navbar li:hover > a {
+    color: #ffb727;
+  }
+  
+//   .navcls .navbar .dropdown ul {
+//     display: block;
+//     position: absolute;
+//     left: 14px;
+//     top: calc(100% + 30px);
+//     margin: 0;
+//     padding: 10px 0;
+//     z-index: 99;
+//     opacity: 0;
+//     visibility: hidden;
+//     background: #fff;
+//     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+//     transition: 0.3s;
+//     border-radius: 4px;
+//   }
+  
+//   .navcls .navbar .dropdown ul li {
+//     min-width: 200px;
+//   }
+  
+//   .navcls .navbar .dropdown ul a {
+//     padding: 10px 20px;
+//     font-size: 14px;
+//     text-transform: none;
+//     font-weight: 400;
+//     color: #3b434a;
+//     letter-spacing: 1px;
+//     font-family: "Raleway", sans-serif;
+//   }
+  
+//   .navcls .navbar .dropdown ul a i {
+//     font-size: 12px;
+//   }
+  
+//    .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+//     color: #ffb727;
+//   }
+  
+  .navbar .dropdown:hover > ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+  }
+  
+//   .navbar .dropdown .dropdown ul {
+//     top: 0;
+//     left: calc(100% - 30px);
+//     visibility: hidden;
+//   }
+  
+//   .navbar .dropdown .dropdown:hover > ul {
+//     opacity: 1;
+//     top: 0;
+//     left: 100%;
+//     visibility: visible;
+//   }
+  
+//   @media (max-width: 1366px) {
+//     .navbar .dropdown .dropdown ul {
+//       left: -90%;
+//     }
+//     .navbar .dropdown .dropdown:hover > ul {
+//       left: -100%;
+//     }
+//   }
+  
+//   /**
+//   * Mobile Navigation 
+//   */
+//   .mobile-nav-toggle {
+//     color: #fff;
+//     font-size: 28px;
+//     cursor: pointer;
+//     display: none;
+//     line-height: 0;
+//     transition: 0.5s;
+//   }
+  
+//   @media (max-width: 991px) {
+//     .mobile-nav-toggle {
+//       display: block !important;
+//     }
+//     .navbar ul {
+//       display: none !important;
+//     }
+//   }
+  
+//   .navbar-mobile {
+//     position: fixed;
+//     overflow: hidden;
+//     top: 0;
+//     right: 0;
+//     left: 0;
+//     bottom: 0;
+//     background: rgba(36, 41, 46, 0.9);
+//     transition: 0.3s;
+//     z-index: 999;
+//   }
+  
+//   .navbar-mobile .mobile-nav-toggle {
+//     position: absolute;
+//     top: 15px;
+//     right: 15px;
+//   }
+  
+
+
+//   .navbar-mobile ul {
+//     display: block;
+//     position: absolute;
+//     top: 55px;
+//     right: 15px;
+//     bottom: 15px;
+//     left: 15px;
+//     padding: 10px 0;
+//     border-radius: 10px;
+//     background-color: #fff;
+//     overflow-y: auto;
+//     transition: 0.3s;
+//   }
+  
+//   .navbar-mobile a {
+//     padding: 10px 20px;
+//     font-size: 14px;
+//     color: #3b434a;
+//   }
+  
+//   .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+//     color: #ffb727;
+//   }
+  
+//   .navbar-mobile .getstarted {
+//     margin: 15px;
+//   }
+  
+//   .navbar-mobile .dropdown ul {
+//     position: static;
+//     display: none;
+//     margin: 10px 20px;
+//     padding: 10px 0;
+//     z-index: 99;
+//     opacity: 1;
+//     visibility: visible;
+//     background: #fff;
+//     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+//   }
+  
+//   .navbar-mobile .dropdown ul li {
+//     min-width: 200px;
+//   }
+  
+//   .navbar-mobile .dropdown ul a {
+//     padding: 10px 20px;
+//   }
+  
+//   .navbar-mobile .dropdown ul a i {
+//     font-size: 12px;
+//   }
+  
+//   .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+//     color: #ffb727;
+//   }
+  
+//   .navbar-mobile .dropdown > .dropdown-active {
+//     display: block;
+//   }
+  
+//   .navcls h1{
+//     position: absolute;
+   
+// }
+// .navcls h1 span{
+//     opacity:0;
+//     display: inline-block;
+//     animation: amin 1s linear forwards;
+// }
+
+
+
+// .navcls a.clickhere{
+ 
+//     color: #ffb727;
+// text-decoration: none;
+   
+// }
+
+// .navcls a.clickhere:hover{
+//     color: #e9ba5b;
+//     cursor: pointer;
+//     font-size: 1.03rem;
+
+// }
+
+
+// contact button
+.navcls a.resumeFont{
+  
+    color: black;
+       border: 2px #ffB727 solid;
+           background-color:#ffB727;
+       padding: 1rem 1rem;
+        border-radius: 5px;
+        position: relative;
+        z-index: 1;
+        transition: ease-in-out 0.3s;
+        outline: none;
+        height: 4vh;
+
+}
+ 
+.navcls a.resumeFont:hover{
+
+
+
+color: #fff;
+cursor: pointer;
+border-color:#fff ;
+    background-color:transparent;
+
+    }
+
+
+    .navcls a.resumeFont:before{
+        transition: 0.5s all ease;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        right: 50%;
+        bottom: 0;
+        opacity: 0;
+        content: "";
+        background-color:transparent;
+
+
+    
+        
+        }
+
+        .navcls a.resumeFont:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 5px;
+
+    }
+
+  
+    @media only screen and (max-width: 991px){
+    
+      // .navbar-brand{
+      //     font-size: 1.5 rem !important;
+      // }
+    .navcls .navbar{ 
+      display: block;
+      width: 100%;
+    
+    }
+      .navcls  .navbar ul {
+        display: block;
+            margin-top: 2em;
+        padding: 10px 0;
+        border-radius: 10px;
+        background: linear-gradient(to bottom left,#000,#1b2026);
+        transition: 0.3s;
+        height: 100vh;
+        padding-top:1em ;
+        
+      }
+      
+      .navcls  .navbar ul li{
+        margin-top: 2rem;   
+        margin-bottom: 2rem;
+      }
+    
+      .navcls  .navbar ul li a{
+    justify-content: center !important;  
+    }
+    
+    .navcls  .navbar ul li  .resumeFont{
+      justify-content: center !important; 
+      margin-left: 4em;
+      margin-right: 4em; 
+    }
+    
+    .navcls a.resumeFont{
+      
+      color: black;
+         border: 2px #ffB727 solid;
+             background-color:#ffB727;
+         padding: 1rem 1rem;
+          border-radius: 5px;
+          position: relative;
+          z-index: 1;
+          transition: ease-in-out 0.3s;
+          outline: none;
+          height: 6vh;
+          margin-bottom: 3rem;
+    
+    }
+    
+    }
+
+    
+@keyframes amin{
+    0%{
+        opacity: 0;
+        transform: rotateY(-90deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg);
+    }
+    
+}
+
+
+
+

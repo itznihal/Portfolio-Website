@@ -1,0 +1,371 @@
+.abtcls section {
+    padding: 60px 0;
+  }
+  
+  .abtcls .section-bg {
+    background-color: white;
+  }
+  
+  .abtcls .section-title {
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+  }
+  
+  .abtcls .section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #3b434a;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .abtcls .section-title span {
+    position: absolute;
+    top: 30px;
+    color: #eef0f2;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+  }
+  
+  .abtcls .section-title p {
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+  }
+  
+  @media (max-width: 575px) {
+   .abtcls .section-title h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+   .abtcls .section-title span {
+      font-size: 38px;
+    }
+  }
+
+
+
+//   About Right Section
+.about .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #3b434a;
+    text-transform: uppercase;
+  }
+  
+  .about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about .content ul strong {
+    margin-right: 10px;
+  }
+  
+  .about .content ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #ffb727;
+    line-height: 0;
+  }
+  
+  .about .content p:last-child {
+    margin-bottom: 0;
+  }
+  
+  // .about .content .count-box {
+  //   width: 100%;
+  //   font-size: 36px !important;
+  //   float: left;
+  //   line-height: 0;
+  // }
+  
+  
+  .about  .count-box .abtglogo {
+    display: block;
+    font-size: 36px ;
+    color: #ffb727;
+    float: left;
+    line-height: 0;
+  }
+  
+  .about .count-box span {
+    font-size: 36px;
+    line-height: 30px;
+    display: block;
+    font-weight: 500;
+    color: #3b434a;
+    margin-left: 50px;
+  }
+  
+  .about  .count-box p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 50px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: #5d6a75;
+  }
+  
+  .about  .count-box a {
+    font-weight: 600;
+    display: block;
+    margin-top: 20px;
+    color: #5d6a75;
+    font-size: 15px;
+    font-family: "Satisfy", serif;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .about  .count-box a:hover {
+    color: #82909c;
+  }
+  
+  .about .image {
+    background: url("../Images/copy3.jpeg") center center no-repeat;
+    background-size: cover;
+
+
+    // background: url("../Images/copy3.jpeg") top right;
+    // background-size: cover;
+    // // background-position: center center;
+    // // background-attachment: fixed; /*only if you want*/
+    // position: relative;
+
+    min-height: 500px;
+  }
+
+  .about .image {
+    transition: 1s ease;
+    }
+    
+    .about .image:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
+
+  .about .image{
+    transition: 1s ease;
+    }
+    
+    .about .image:hover {
+    border-radius:50%;
+    transition: 1s ease;
+    }
+  
+
+  
+  
+  .about .skills-content {
+    margin-top: 30px;
+  }
+  
+  .about .skills-content .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+  }
+  
+  .about .skills-content .progress .skill {
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #3b434a;
+  }
+  
+  .about .skills-content .progress .skill .val {
+    float: right;
+    font-style: normal;
+  }
+  
+  .about .skills-content .progress-bar-wrap {
+    background: #e6e8eb;
+  }
+  
+  .about .skills-content .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: .9s;
+    background-color: #ffb727;
+  }
+  
+//   About Second Section Title
+
+.titlerow{
+    text-align: center;
+    margin-top: 3em !important;
+    margin-bottom: 3em !important;
+}
+
+
+
+.section-title-second h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffb727;
+    font-family: "Poppins", sans-serif;
+  }
+  .section-title-second h2::before {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #ffb727;
+    margin: 4px 10px;
+  }
+  .section-title-second h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #ffb727;
+    margin: 4px 10px;
+  }
+  .section-title-second p {
+    margin: 0;
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: black;
+  }
+  
+  .abtparagraph{
+      
+
+      margin-left: 7em !important;
+      margin-right: 7em !important;
+      font-size: 150%;
+  }
+
+  .icncls{
+      color:#ffb727 ;
+    font-size: 1em;
+    font-weight: 200;
+  }
+
+// Reward Section Starts
+
+.rewardcls{
+  margin-top: 5em !important;
+}
+
+.abtglogo{
+  color: #ffb459;
+}
+
+
+// CARD CSS
+.abtcls .card {
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.abtcls .card-header, .card-footer {
+  border-color: #ebeef4;
+  background-color: #fff;
+  color: #798eb3;
+  padding: 15px;
+}
+
+.abtcls .card-title {
+  padding: 20px 0 15px 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #012970;
+  font-family: "Poppins", sans-serif;
+}
+.abtcls .card-title span {
+  color: #899bbd;
+  font-size: 14px;
+  font-weight: 400;
+}
+.abtcls .card-body {
+  padding: 38px 20px 37px 20px;
+}
+
+.abtcls .card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+  @media (max-width: 1200px) {
+   
+
+    .section-title-second h2 {
+        font-size: 10px;
+        font-weight: 400;
+        padding-bottom: 2em;
+        line-height: 1px;
+        margin: 0 0 20px 0;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #ffb727;
+        font-family: "Poppins", sans-serif;
+        border-bottom: 1px solid #ffb727;
+      }
+      .section-title-second h2::before {
+        content: "";
+        width: 0px;
+        height: 0px;
+        display: inline-block;
+        background: #ffb727;
+        margin: 0px 0px;
+      }
+      .section-title-second h2::after {
+        content: "";
+        width: 0px;
+        height: 0px;
+        display: inline-block;
+        background: #ffb727;
+        margin: 0px 0px;
+      }
+      .section-title-second p {
+        margin: 0;
+        margin: -15px 0 15px 0;
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        color: black;
+      }
+
+      .abtparagraph{
+      
+
+        margin-left: 2em !important;
+        margin-right: 2em !important;
+        font-size: 150%;
+    }
+
+  }
