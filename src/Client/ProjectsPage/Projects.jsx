@@ -1,11 +1,87 @@
 import React from 'react';
 import "./projectpage.scss";
 import Img1 from "../Images/hero-img.png";
+// PROJECT - BESTBID 
+import bb1 from "../Images/Portfolio-Collection/Projects/Best-Bid/Screenshot (967).png";
+import bb2 from "../Images/Portfolio-Collection/Projects/Best-Bid/Screenshot (969).png";
+import bb3 from "../Images/Portfolio-Collection/Projects/Best-Bid/demo44.png";
+import bb4 from "../Images/Portfolio-Collection/Projects/Best-Bid/demo1.png";
+import bb5 from "../Images/Portfolio-Collection/Projects/Best-Bid/payment.png";
+
+// PROJECT - PORTFOLIO 
+import portfolioimg from "../Images/Portfolio-Collection/Projects/Portfolio/portfolio 2.png";
+import portfolioimg2 from "../Images/Portfolio-Collection/Projects/Portfolio/Screenshot (288).png";
+
+
+// PROJECT - COVID
+import map from "../Images/Portfolio-Collection/Projects/Corona Virus Case Detector/1.png";
+import covidhomepage from "../Images/Portfolio-Collection/Projects/Covid Project/covid-Homepage.png";
+import main2 from "../Images/Portfolio-Collection/Projects/Covid Project/2.png";
+import main3 from "../Images/Portfolio-Collection/Projects/Covid Project/3.png";
+import main4 from "../Images/Portfolio-Collection/Projects/Covid Project/4.png";
+import main5 from "../Images/Portfolio-Collection/Projects/Covid Project/5.png";
+
+
+// PROJECT - E COMMERCE UI
+import Ecommerce1 from "../Images/Portfolio-Collection/Projects/Ecommerce UI/1.png";
+import Ecommerce2 from "../Images/Portfolio-Collection/Projects/Ecommerce UI/2.png";
+import Ecommerce3 from "../Images/Portfolio-Collection/Projects/Ecommerce UI/3.png";
+
+
+// PROJECT - STARTUP
+import ssu1 from "../Images/Portfolio-Collection/Projects/Startup Project Template/1.png";
+import ssu2 from "../Images/Portfolio-Collection/Projects/Startup Project Template/3.png";
+
+
+// PROJECT - GYM
+import Gym1 from "../Images/Portfolio-Collection/Projects/Gymwebsite/1.png";
+import Gym2 from "../Images/Portfolio-Collection/Projects/Gymwebsite/2.png";
+import Gym3 from "../Images/Portfolio-Collection/Projects/Gymwebsite/3.png";
+import Gym4 from "../Images/Portfolio-Collection/Projects/Gymwebsite/4.png";
+import Gym5 from "../Images/Portfolio-Collection/Projects/Gymwebsite/5.png";
+import Gym6 from "../Images/Portfolio-Collection/Projects/Gymwebsite/6.png";
+
+
+// PROJECT - EXERCISE TRACKER
+import ExerciseTracker from "../Images/Portfolio-Collection/Projects/Exercise Tracker/1.png";
+import ExerciseTracker2 from "../Images/Portfolio-Collection/Projects/Exercise Tracker/2.png";
+import ExerciseTracker3 from "../Images/Portfolio-Collection/Projects/Exercise Tracker/3.png";
+import ExerciseTracker4 from "../Images/Portfolio-Collection/Projects/Exercise Tracker/4.png";
+
+
+// PROJECT - TODO
+import TODO from "../Images/Portfolio-Collection/Projects/TO DO APP/1.png";
+
+
+
+import { AiOutlineGithub} from 'react-icons/ai';
+
+
+
+import { Swiper , SwiperSlide} from "swiper/react";
+import SwiperCore , {Navigation, Pagination, Scrollbar, A11y , Autoplay , Thumbs} from "swiper";
+
+
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import 'swiper/css/autoplay';
+import 'swiper/css/thumbs';
+import 'swiper/css/a11y';
+
+
+
+// Swiper Tesing
+SwiperCore.use([Navigation , Pagination , Thumbs , Autoplay]);
+
+
 
 const Projects = () => {
   return (
 <>
-<div className='projectpge'>
+<div  id="projectss" className='projectpge'>
 
 
   <div className="container-fluid nav_bg prjtcls">
@@ -45,6 +121,9 @@ const Projects = () => {
       </div>
 
       <div className='col-lg-6 order-1 order-lg-2 header-img imgabtcls prjctdesc' data-aos="fade-left" data-aos-delay="200">
+
+
+      
           <img src={Img1} className='img-fluid animated imgabt' alt="auction img" />
 
       </div>
@@ -57,6 +136,591 @@ const Projects = () => {
 
 </section>
 {/* Project Description Section Added  */}
+<div className="product_image_area " data-aos="fade-up" data-aos-delay="100" >
+<div className="container">
+			<div className="row s_product_inner">
+				<div className="col-lg-6">
+
+
+
+					<div className="s_Product_carousel" data-aos="fade-up-right" data-aos-delay="100">
+					
+<div className='coursel-manage'>
+                        <Swiper tag="section" wrapperTag="ul"
+                        modules={[Navigation, Pagination , A11y , Autoplay]}
+                       id="main"
+                       slidesPerView={1}
+                       navigation
+                       pagination={{ clickable: true }}
+                       autoplay
+                       spaceBetween = {0}
+                        
+                       >
+      <SwiperSlide>     <img className='img-fluid' src={bb1}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide> <img className='img-fluid' src={bb2}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide> <img className='img-fluid' src={bb3}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide> <img className='img-fluid' src={bb4}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide> <img className='img-fluid' src={bb5}  alt="auction img" /></SwiperSlide>
+                       </Swiper>
+
+</div>
+
+                       
+
+					</div>
+
+
+				</div>
+				<div className="col-lg-5 offset-lg-1">
+					<div className="s_product_text" data-aos="fade-up-left" data-aos-delay="100">
+						<h3>Best-Bid</h3>
+					
+						<p>
+            <a href="https://github.com/itznihal" className="githubicn"><AiOutlineGithub className="githubicn"/></a>
+            
+                        </p>
+
+                        <h1 className='toolscls'>Tools</h1>
+                        
+
+                        <ul class="tags">
+  <li><a href="#" class="tag">React</a></li>
+  <li><a href="#" class="tag">Redux</a></li>
+  <li><a href="#" class="tag">Node JS</a></li>
+  <li><a href="#" class="tag">Express JS</a></li>
+  <li><a href="#" class="tag">Mongo DB</a></li>
+  <li><a href="#" class="tag">Stripe</a></li>
+  <li><a href="#" class="tag">Cloudinary</a></li>
+  
+</ul>
+
+                      
+
+
+
+						<h2>An online auction is a service in which auction users or participants sell or bid for products or services via the Internet.</h2>
+
+
+                     
+
+                         
+ 
+
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+
+
+
+
+
+{/* Second Project */}
+
+<div className="product_image_area " >
+<div className="container">
+			<div className="row s_product_inner">
+				<div className="col-lg-6">
+
+
+
+					<div className="s_Product_carousel" data-aos="fade-up-right" data-aos-delay="100">
+					
+<div className='coursel-manage'>
+                        <Swiper tag="section" wrapperTag="ul"
+                        modules={[Navigation, Pagination , A11y , Autoplay]}
+                       id="main"
+                       slidesPerView={1}
+                       navigation
+                       pagination={{ clickable: true }}
+                       autoplay
+                       spaceBetween = {0}
+                        
+                       >
+      <SwiperSlide>     <img className='img-fluid' src={portfolioimg}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide>     <img className='img-fluid' src={portfolioimg2}  alt="auction img" /></SwiperSlide>
+      
+                       </Swiper>
+
+</div>
+
+                       
+
+					</div>
+
+
+				</div>
+				<div className="col-lg-5 offset-lg-1">
+					<div className="s_product_text" data-aos="fade-up-left" data-aos-delay="100 ">
+						<h3>Portfolio</h3>
+					
+						<p>
+            <a href="https://github.com/itznihal" className="githubicn"><AiOutlineGithub className="githubicn"/></a>
+            
+                        </p>
+
+                        <h1 className='toolscls'>Tools</h1>
+                        
+
+                        <ul class="tags">
+  <li><a href="#" class="tag">React JS</a></li>
+  <li><a href="#" class="tag">Scss</a></li>
+  <li><a href="#" class="tag">Swiper</a></li>
+  <li><a href="#" class="tag">Aos</a></li>
+ 
+  
+</ul>
+						<h2>A portfolio website made with React for presenting my work, as well as  skills and experiences in an organized and decorated way.</h2>
+
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+
+
+
+{/* THIRD SECTION  */}
+
+
+
+<div className="product_image_area " >
+<div className="container">
+			<div className="row s_product_inner">
+				<div className="col-lg-6">
+
+
+
+					<div className="s_Product_carousel" data-aos="fade-up-right" data-aos-delay="100">
+					
+<div className='coursel-manage'>
+                        <Swiper tag="section" wrapperTag="ul"
+                        modules={[Navigation, Pagination , A11y , Autoplay]}
+                       id="main"
+                       slidesPerView={1}
+                       navigation
+                       pagination={{ clickable: true }}
+                       autoplay
+                       spaceBetween = {0}
+                        
+                       >
+      <SwiperSlide>     <img className='img-fluid' src={covidhomepage}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide>     <img className='img-fluid' src={main2}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide>     <img className='img-fluid' src={main3}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide>     <img className='img-fluid' src={map}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide>     <img className='img-fluid' src={main4}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide>     <img className='img-fluid' src={main5}  alt="auction img" /></SwiperSlide>
+
+
+      
+                       </Swiper>
+
+</div>
+
+                       
+
+					</div>
+
+
+				</div>
+				<div className="col-lg-5 offset-lg-1">
+					<div className="s_product_text" data-aos="fade-up-left" data-aos-delay="100 ">
+						<h3>Covid Guide</h3>
+					
+						<p>
+            <a href="https://github.com/itznihal" className="githubicn"><AiOutlineGithub className="githubicn"/></a>
+            
+                        </p>
+
+                        <h1 className='toolscls'>Tools</h1>
+                        
+
+                        <ul class="tags">
+  <li><a href="#" class="tag">React</a></li>
+  <li><a href="#" class="tag">Redux</a></li>
+  <li><a href="#" class="tag">Node JS</a></li>
+  <li><a href="#" class="tag">Express JS</a></li>
+  <li><a href="#" class="tag">Mongo DB</a></li>
+  <li><a href="#" class="tag">Stripe</a></li>
+  <li><a href="#" class="tag">Cloudinary</a></li>
+  
+</ul>
+						<h2>A website made with React in which user can track No. cases  of Covid-19 in India. User can search for particular country and get all covid information about particular country. As well as user can also check current covid cases around his/her.</h2>
+
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+
+
+{/* Ecommerce Section */}
+
+
+<div className="product_image_area " >
+<div className="container">
+			<div className="row s_product_inner">
+				<div className="col-lg-6">
+
+
+
+					<div className="s_Product_carousel" data-aos="fade-up-right" data-aos-delay="100">
+					
+<div className='coursel-manage'>
+                        <Swiper tag="section" wrapperTag="ul"
+                        modules={[Navigation, Pagination , A11y , Autoplay]}
+                       id="main"
+                       slidesPerView={1}
+                       navigation
+                       pagination={{ clickable: true }}
+                       autoplay
+                       spaceBetween = {0}
+                        
+                       >
+      <SwiperSlide>     <img className='img-fluid' src={Ecommerce1}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide>     <img className='img-fluid' src={Ecommerce2}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide>     <img className='img-fluid' src={Ecommerce3}  alt="auction img" /></SwiperSlide>
+ 
+
+
+      
+                       </Swiper>
+
+</div>
+
+                       
+
+					</div>
+
+
+				</div>
+				<div className="col-lg-5 offset-lg-1">
+					<div className="s_product_text" data-aos="fade-up-left" data-aos-delay="100 ">
+						<h3>E-Commerce UI</h3>
+					
+						<p>
+            <a href="https://github.com/itznihal" className="githubicn"><AiOutlineGithub className="githubicn"/></a>
+            
+                        </p>
+
+                        <h1 className='toolscls'>Tools</h1>
+                        
+
+                        <ul class="tags">
+  <li><a href="#" class="tag">React</a></li>
+  <li><a href="#" class="tag">Scss</a></li>
+  <li><a href="#" class="tag">Figma</a></li>
+  <li><a href="#" class="tag">Aos</a></li>
+  <li><a href="#" class="tag">Swiper</a></li>
+  
+  
+</ul>
+						<h2>An E-Commerce webapp design and basic functionalities designed using React.Aim to create interfaces which users find easy to use and pleasurable.</h2>
+
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+
+
+
+
+
+{/* Start Up Section */}
+
+
+<div className="product_image_area " >
+<div className="container">
+			<div className="row s_product_inner">
+				<div className="col-lg-6">
+
+
+
+					<div className="s_Product_carousel" data-aos="fade-up-right" data-aos-delay="100">
+					
+<div className='coursel-manage'>
+                        <Swiper tag="section" wrapperTag="ul"
+                        modules={[Navigation, Pagination , A11y , Autoplay]}
+                       id="main"
+                       slidesPerView={1}
+                       navigation
+                       pagination={{ clickable: true }}
+                       autoplay
+                       spaceBetween = {0}
+                        
+                       >
+      <SwiperSlide>     <img className='img-fluid' src={ssu1}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide>     <img className='img-fluid' src={ssu2}  alt="auction img" /></SwiperSlide>
+ 
+
+
+      
+                       </Swiper>
+
+</div>
+
+                       
+
+					</div>
+
+
+				</div>
+				<div className="col-lg-5 offset-lg-1">
+					<div className="s_product_text" data-aos="fade-up-left" data-aos-delay="100 ">
+						<h3>Blog Website - Venue Perl</h3>
+					
+						<p>
+            <a href="https://github.com/itznihal" className="githubicn"><AiOutlineGithub className="githubicn"/></a>
+            
+                        </p>
+
+                        <h1 className='toolscls'>Tools</h1>
+                        
+
+                        <ul class="tags">
+  <li><a href="#" class="tag">Html</a></li>
+  <li><a href="#" class="tag">Css</a></li>
+  <li><a href="#" class="tag">JavaScript</a></li>
+  <li><a href="#" class="tag">Bootstrap</a></li>
+  <li><a href="#" class="tag">Aos</a></li>
+  
+  
+</ul>
+						<h2>Venue Perl - A blog website to share their creativity and ideas to a wider audience. This task is given to me during my internship at Girl-Script</h2>
+
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+
+
+    
+{/* Project - Gym */}
+
+
+<div className="product_image_area " >
+<div className="container">
+			<div className="row s_product_inner">
+				<div className="col-lg-6">
+
+
+
+					<div className="s_Product_carousel" data-aos="fade-up-right" data-aos-delay="100">
+					
+<div className='coursel-manage'>
+                        <Swiper tag="section" wrapperTag="ul"
+                        modules={[Navigation, Pagination , A11y , Autoplay]}
+                       id="main"
+                       slidesPerView={1}
+                       navigation
+                       pagination={{ clickable: true }}
+                       autoplay
+                       spaceBetween = {0}
+                        
+                       >
+      <SwiperSlide >     <img className='img-fluid' src={Gym2}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide >     <img className='img-fluid' src={Gym4}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide >     <img className='img-fluid' src={Gym5}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide >     <img className='img-fluid' src={Gym1}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide >     <img className='img-fluid' src={Gym6}  alt="auction img" /></SwiperSlide>
+ 
+
+
+      
+                       </Swiper>
+
+</div>
+
+                       
+
+					</div>
+
+
+				</div>
+				<div className="col-lg-5 offset-lg-1">
+					<div className="s_product_text" data-aos="fade-up-left" data-aos-delay="100 ">
+						<h3>Gym Website</h3>
+					
+						<p>
+            <a href="https://github.com/itznihal" className="githubicn"><AiOutlineGithub className="githubicn"/></a>
+            
+                        </p>
+
+                        <h1 className='toolscls'>Tools</h1>
+                        
+
+                        <ul class="tags">
+  <li><a href="#" class="tag">Html</a></li>
+  <li><a href="#" class="tag">Css</a></li>
+  <li><a href="#" class="tag">JavaScript</a></li>
+  <li><a href="#" class="tag">Bootstrap</a></li>
+  <li><a href="#" class="tag">Aos</a></li>
+  
+  
+</ul>
+						<h2>A Gym Website  where members will view your fitness class schedule, make a booking, and find out what services you offer.The user can add all the necessary details like member name, address , contact details into the system.</h2>
+
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+
+   
+{/* PROJECT - EXERCISE TRACKER */}
+
+
+<div className="product_image_area " >
+<div className="container">
+			<div className="row s_product_inner">
+				<div className="col-lg-6">
+
+
+
+					<div className="s_Product_carousel" data-aos="fade-up-right" data-aos-delay="100">
+					
+<div className='coursel-manage'>
+                        <Swiper tag="section" wrapperTag="ul"
+                        modules={[Navigation, Pagination , A11y , Autoplay]}
+                       id="main"
+                       slidesPerView={1}
+                       navigation
+                       pagination={{ clickable: true }}
+                       autoplay
+                       spaceBetween = {0}
+                        
+                       >
+      <SwiperSlide >     <img className='img-fluid' src={ExerciseTracker}  alt="auction img" /></SwiperSlide>
+      {/* <SwiperSlide >     <img className='img-fluid' src={ExerciseTracker2}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide >     <img className='img-fluid' src={ExerciseTracker3}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide >     <img className='img-fluid' src={ExerciseTracker4}  alt="auction img" /></SwiperSlide> */}
+ 
+
+
+      
+                       </Swiper>
+
+</div>
+
+                       
+
+					</div>
+
+
+				</div>
+				<div className="col-lg-5 offset-lg-1">
+					<div className="s_product_text" data-aos="fade-up-left" data-aos-delay="100 ">
+						<h3>Exercise Tracker</h3>
+					
+						<p>
+            <a href="https://github.com/itznihal" className="githubicn"><AiOutlineGithub className="githubicn"/></a>
+            
+                        </p>
+
+                        <h1 className='toolscls'>Tools</h1>
+                        
+
+                        <ul class="tags">
+  <li><a href="#" class="tag">React</a></li>
+  <li><a href="#" class="tag">Scss</a></li>
+  <li><a href="#" class="tag">Node JS</a></li>
+  <li><a href="#" class="tag">Express JS</a></li>
+  <li><a href="#" class="tag">Mongo DB</a></li>
+  <li><a href="#" class="tag">Mongoose</a></li>
+  
+  
+</ul>
+						<h2>Exercise Tracker Webapp for monitoring and tracking Exercise for users .</h2>
+
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+
+
+
+{/* PROJECT - TODO */}
+
+
+<div className="product_image_area " >
+<div className="container">
+			<div className="row s_product_inner">
+				<div className="col-lg-6">
+
+
+
+					<div className="s_Product_carousel" data-aos="fade-up-right" data-aos-delay="100">
+					
+<div className='coursel-manage'>
+                        <Swiper tag="section" wrapperTag="ul"
+                        modules={[Navigation, Pagination , A11y , Autoplay]}
+                       id="main"
+                       slidesPerView={1}
+                       navigation
+                       pagination={{ clickable: true }}
+                       autoplay
+                       spaceBetween = {0}
+                        
+                       >
+      <SwiperSlide >     <img className='img-fluid' src={TODO}  alt="auction img" /></SwiperSlide>
+      {/* <SwiperSlide >     <img className='img-fluid' src={ExerciseTracker2}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide >     <img className='img-fluid' src={ExerciseTracker3}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide >     <img className='img-fluid' src={ExerciseTracker4}  alt="auction img" /></SwiperSlide> */}
+ 
+
+
+      
+                       </Swiper>
+
+</div>
+
+                       
+
+					</div>
+
+
+				</div>
+				<div className="col-lg-5 offset-lg-1">
+					<div className="s_product_text" data-aos="fade-up-left" data-aos-delay="100 ">
+						<h3>To Do App</h3>
+					
+						<p>
+            <a href="https://github.com/itznihal" className="githubicn"><AiOutlineGithub className="githubicn"/></a>
+            
+                        </p>
+
+                        <h1 className='toolscls'>Tools</h1>
+                        
+
+                        <ul class="tags">
+  <li><a href="#" class="tag">React</a></li>
+  <li><a href="#" class="tag">React Hooks</a></li>
+  <li><a href="#" class="tag">Bootstrap</a></li>
+  <li><a href="#" class="tag">Aos</a></li>
+  
+  
+</ul>
+						<h2>A to-do Website lets you write, organize, and reprioritize your tasks more efficiently</h2>
+
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+
+
+
+
+
+
+
 
 
 

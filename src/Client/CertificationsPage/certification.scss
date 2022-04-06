@@ -1,0 +1,1089 @@
+// Heading Section 
+.certificationcls section {
+    padding: 0 0 !important;
+  }
+  
+  .crtcls .section-bg {
+    background-color: white;
+  }
+  
+  .crtcls .section-title {
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+    margin-top: 6em;
+  }
+  
+  .crtcls .section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #3b434a;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .crtcls .section-title span {
+    position: absolute;
+    top: 30px;
+    color: #eef0f2;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+  }
+  
+  .crtcls .section-title p {
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+  }
+
+
+
+
+
+  @media (max-width: 575px) {
+    .crtcls .section-title h2 {
+       font-size: 28px;
+       margin-bottom: 15px;
+     }
+    .crtcls .section-title span {
+       font-size: 38px;
+     }
+   }
+
+
+
+
+// CERTIFICATE DESCRIPTION HEADER
+
+
+
+// Project Description Section
+.certificationcls #header1{
+    width: 75%;
+    // height: 26%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  
+
+  .certificationcls .imgabt{
+      margin-left: 16rem;
+  }
+  @media (max-width: 991px) {
+    .certificationcls #header1{
+        width: 100%;
+        
+      }
+      
+  .certificationcls .imgabt{
+    margin-left: 5rem;
+}
+ .image:hover img:hover {
+    margin-left: 0;
+    
+  }
+  
+
+
+     }
+
+
+  .certificationcls  #header1 h1{
+    // margin: 0 0 10px 0;
+    // font-size: 48px;
+    // font-weight: 700;
+    // color: black;
+  
+    margin: 0;
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: black;
+  padding-bottom: 1rem;
+          color: #ffb727;
+          border-bottom: 1px solid #ffb727;
+  
+  }
+  
+  
+  .certificationcls  #header1 .brand-name{
+    color: #4481eb;
+  
+  }
+  
+  .certificationcls  #header1 h2{
+    color: #484848;
+    font-size: 150%;
+  
+  }
+  
+  .certificationcls #header1 .btn-get-started{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #4481eb;
+    border: 2px solid #4481eb;
+    text-decoration: none;
+    
+  
+  }
+  
+  .certificationcls  #header1 .btn-get-started:hover{
+    background: #4481eb;
+    color: #fff;
+  }
+  
+  .certificationcls .header-img{
+    text-align: right;
+  }
+  
+  .certificationcls .header-img2{
+    text-align: left;
+  }
+  
+  .certificationcls .prjctdesc .animated{
+    animation: up-down 1s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @-webkit-keyframes up-down{
+  
+  0%{
+    transform: translateY(10px);
+  }
+  
+  100%{
+    transform: translateY(-10px);
+  }
+  
+  
+  }
+  
+  @keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+  }
+
+
+
+//   IMage Hover Effect
+// .imagedd .imgabt
+.certificationcls .image {
+    perspective: 3000px;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d;
+  }
+  .certificationcls .image img {
+    transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+    box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
+    transition: all .4s;
+    transform-style: preserve-3d;
+  }
+  .certificationcls .image:hover img {
+    margin-left: 16rem;
+    transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+  }
+  
+  @media (max-width: 991px) {
+    
+      
+ 
+.certificationcls .image:hover img {
+    margin-left: 0;
+   
+  }
+  
+
+
+     }
+
+//   CERTIFICATE IMAGE SECTION
+
+
+
+  // FREATURED PRODUCT 
+  
+
+
+.product_section{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+
+
+.product_section .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  margin-top: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.product_section .box .img-box {
+  background-color: transparent;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding: 15px;
+}
+
+.product_section .box .img-box img {
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+.product_section .box .detail-box {
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.certificationcls .chead{
+text-align: center;
+    font-family: "Raleway", sans-serif;
+    color: #ffb727;
+    font-weight: 700;
+
+    border-top: 1px solid #ffb727;
+
+}
+.certificationcls .cbody{
+  justify-content: center;
+    }
+.certificationcls .cbody h1{
+    color: #484848 !important;
+    font-size: 150% !important;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    justify-content: center;
+}
+
+
+.product_section .box .product_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: center;
+}
+
+
+
+
+// Try
+
+.reflection-container-1{
+  position:relative;
+  display:inline-block;
+  vertical-align:middle;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  &:before{
+    content:'Hover me ➜';
+    color:#fff;
+    position:absolute;
+    left:-1rem;
+    top:50%;
+    font-size:6vh;
+    transform:translateX(-100%) translateY(-50%);
+  }
+
+
+  .reflection-content{
+    height:45vh;
+    width:70vh;
+    background:transparent url(../Images/Certificates/webD.png);
+
+    background-repeat: no-repeat;
+    background-size: 300px !important;
+   
+
+    background-size:cover;
+    background-position:center;
+    transform:rotateX(0) rotateY(0);
+    pointer-events:none;
+    transition:100ms linear transform;
+    overflow:hidden;
+    &:before{
+      content:'';
+      position:absolute;
+      width:200%;
+      height:200%;
+      left:-50%;
+      top:-50%;
+      background: transparent;
+    }
+  }
+
+
+
+
+  @media (max-width: 991px) {
+ 
+
+
+    .reflection-content{
+        height:40vh;
+        width:45vh;
+            background-size: 250px !important;
+             }
+     }
+
+
+
+
+  .reflection-grid-cell{
+    position:absolute;
+    z-index: 1;
+    width:10%;
+    height:10%;
+  }
+  @for $r from 1 to 11{ 
+    @for $c from 1 to 11 {
+      .reflection-grid-cell-#{( ($r*10) + $c - 10)}{
+        top:($r*10%)-10%;
+        left:($c*10%)-10%;
+      }
+      .reflection-grid-cell-#{( ($r*10) + $c - 10)}:hover ~ .reflection-content{
+        transform:rotateX((($r*-5)+25deg)) rotateY((-25deg+($c*5)));
+        &:before{
+          transform:translateY(25-(5%*$r));
+        }
+      }
+    }
+  }
+}
+
+
+// Certificate 2
+
+
+.reflection-container-2{
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    &:before{
+      content:'Hover me ➜';
+      color:#fff;
+      position:absolute;
+      left:-1rem;
+      top:50%;
+      font-size:6vh;
+      transform:translateX(-100%) translateY(-50%);
+    }
+  
+  
+    .reflection-content{
+      height:45vh;
+      width:70vh;
+    //   background:transparent url(../Images/Certificates/webD.png);
+    //   src\Client\Images\Certificates\Screenshot 2022-04-06 030849.png
+      background:transparent url("../Images/Certificates/Screenshot 2022-04-06 030849.png");
+  
+      background-repeat: no-repeat;
+      background-size: 300px !important;
+     
+  
+      background-size:cover;
+      background-position:center;
+      transform:rotateX(0) rotateY(0);
+      pointer-events:none;
+      transition:100ms linear transform;
+      overflow:hidden;
+      &:before{
+        content:'';
+        position:absolute;
+        width:200%;
+        height:200%;
+        left:-50%;
+        top:-50%;
+        background: transparent;
+      }
+    }
+  
+  
+  
+  
+    @media (max-width: 991px) {
+   
+  
+  
+      .reflection-content{
+          height:40vh;
+          width:45vh;
+              background-size: 250px !important;
+               }
+       }
+  
+  
+  
+  
+    .reflection-grid-cell{
+      position:absolute;
+      z-index: 1;
+      width:10%;
+      height:10%;
+    }
+    @for $r from 1 to 11{ 
+      @for $c from 1 to 11 {
+        .reflection-grid-cell-#{( ($r*10) + $c - 10)}{
+          top:($r*10%)-10%;
+          left:($c*10%)-10%;
+        }
+        .reflection-grid-cell-#{( ($r*10) + $c - 10)}:hover ~ .reflection-content{
+          transform:rotateX((($r*-5)+25deg)) rotateY((-25deg+($c*5)));
+          &:before{
+            transform:translateY(25-(5%*$r));
+          }
+        }
+      }
+    }
+  }
+  
+
+  // Certificate 3
+
+
+.reflection-container-3{
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    &:before{
+      content:'Hover me ➜';
+      color:#fff;
+      position:absolute;
+      left:-1rem;
+      top:50%;
+      font-size:6vh;
+      transform:translateX(-100%) translateY(-50%);
+    }
+  
+  
+    .reflection-content{
+      height:45vh;
+      width:70vh;
+      background:transparent url(../Images/Certificates/guvi2.png);
+  
+      background-repeat: no-repeat;
+      background-size: 300px !important;
+     
+  
+      background-size:cover;
+      background-position:center;
+      transform:rotateX(0) rotateY(0);
+      pointer-events:none;
+      transition:100ms linear transform;
+      overflow:hidden;
+      &:before{
+        content:'';
+        position:absolute;
+        width:200%;
+        height:200%;
+        left:-50%;
+        top:-50%;
+        background: transparent;
+      }
+    }
+  
+  
+  
+  
+    @media (max-width: 991px) {
+   
+  
+  
+      .reflection-content{
+          height:40vh;
+          width:45vh;
+              background-size: 250px !important;
+               }
+       }
+  
+  
+  
+  
+    .reflection-grid-cell{
+      position:absolute;
+      z-index: 1;
+      width:10%;
+      height:10%;
+    }
+    @for $r from 1 to 11{ 
+      @for $c from 1 to 11 {
+        .reflection-grid-cell-#{( ($r*10) + $c - 10)}{
+          top:($r*10%)-10%;
+          left:($c*10%)-10%;
+        }
+        .reflection-grid-cell-#{( ($r*10) + $c - 10)}:hover ~ .reflection-content{
+          transform:rotateX((($r*-5)+25deg)) rotateY((-25deg+($c*5)));
+          &:before{
+            transform:translateY(25-(5%*$r));
+          }
+        }
+      }
+    }
+  }
+  
+  
+  // Certificate 4
+
+
+.reflection-container-4{
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    &:before{
+      content:'Hover me ➜';
+      color:#fff;
+      position:absolute;
+      left:-1rem;
+      top:50%;
+      font-size:6vh;
+      transform:translateX(-100%) translateY(-50%);
+    }
+  
+  
+    .reflection-content{
+      height:45vh;
+      width:70vh;
+      background:transparent url(../Images/Certificates/js.png);
+  
+      background-repeat: no-repeat;
+      background-size: 300px !important;
+     
+  
+      background-size:cover;
+      background-position:center;
+      transform:rotateX(0) rotateY(0);
+      pointer-events:none;
+      transition:100ms linear transform;
+      overflow:hidden;
+      &:before{
+        content:'';
+        position:absolute;
+        width:200%;
+        height:200%;
+        left:-50%;
+        top:-50%;
+        background: transparent;
+      }
+    }
+  
+  
+  
+  
+    @media (max-width: 991px) {
+   
+  
+  
+      .reflection-content{
+          height:40vh;
+          width:45vh;
+              background-size: 250px !important;
+               }
+       }
+  
+  
+  
+  
+    .reflection-grid-cell{
+      position:absolute;
+      z-index: 1;
+      width:10%;
+      height:10%;
+    }
+    @for $r from 1 to 11{ 
+      @for $c from 1 to 11 {
+        .reflection-grid-cell-#{( ($r*10) + $c - 10)}{
+          top:($r*10%)-10%;
+          left:($c*10%)-10%;
+        }
+        .reflection-grid-cell-#{( ($r*10) + $c - 10)}:hover ~ .reflection-content{
+          transform:rotateX((($r*-5)+25deg)) rotateY((-25deg+($c*5)));
+          &:before{
+            transform:translateY(25-(5%*$r));
+          }
+        }
+      }
+    }
+  }
+  
+  // Certificate 5
+
+
+.reflection-container-5{
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    &:before{
+      content:'Hover me ➜';
+      color:#fff;
+      position:absolute;
+      left:-1rem;
+      top:50%;
+      font-size:6vh;
+      transform:translateX(-100%) translateY(-50%);
+    }
+  
+  
+    .reflection-content{
+      height:45vh;
+      width:70vh;
+      background:transparent url(../Images/Certificates/cloud.png);
+  
+      background-repeat: no-repeat;
+      background-size: 300px !important;
+     
+  
+      background-size:cover;
+      background-position:center;
+      transform:rotateX(0) rotateY(0);
+      pointer-events:none;
+      transition:100ms linear transform;
+      overflow:hidden;
+      &:before{
+        content:'';
+        position:absolute;
+        width:200%;
+        height:200%;
+        left:-50%;
+        top:-50%;
+        background: transparent;
+      }
+    }
+  
+  
+  
+  
+    @media (max-width: 991px) {
+   
+  
+  
+      .reflection-content{
+          height:40vh;
+          width:45vh;
+              background-size: 250px !important;
+               }
+       }
+  
+  
+  
+  
+    .reflection-grid-cell{
+      position:absolute;
+      z-index: 1;
+      width:10%;
+      height:10%;
+    }
+    @for $r from 1 to 11{ 
+      @for $c from 1 to 11 {
+        .reflection-grid-cell-#{( ($r*10) + $c - 10)}{
+          top:($r*10%)-10%;
+          left:($c*10%)-10%;
+        }
+        .reflection-grid-cell-#{( ($r*10) + $c - 10)}:hover ~ .reflection-content{
+          transform:rotateX((($r*-5)+25deg)) rotateY((-25deg+($c*5)));
+          &:before{
+            transform:translateY(25-(5%*$r));
+          }
+        }
+      }
+    }
+  }
+  
+  // Certificate 6
+
+
+.reflection-container-6{
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    &:before{
+      content:'Hover me ➜';
+      color:#fff;
+      position:absolute;
+      left:-1rem;
+      top:50%;
+      font-size:6vh;
+      transform:translateX(-100%) translateY(-50%);
+    }
+  
+  
+    .reflection-content{
+      height:45vh;
+      width:70vh;
+      background:transparent url(../Images/Certificates/java.png);
+  
+      background-repeat: no-repeat;
+      background-size: 300px !important;
+     
+  
+      background-size:cover;
+      background-position:center;
+      transform:rotateX(0) rotateY(0);
+      pointer-events:none;
+      transition:100ms linear transform;
+      overflow:hidden;
+      &:before{
+        content:'';
+        position:absolute;
+        width:200%;
+        height:200%;
+        left:-50%;
+        top:-50%;
+        background: transparent;
+      }
+    }
+  
+  
+  
+  
+    @media (max-width: 991px) {
+   
+  
+  
+      .reflection-content{
+          height:40vh;
+          width:45vh;
+              background-size: 250px !important;
+               }
+       }
+  
+  
+  
+  
+    .reflection-grid-cell{
+      position:absolute;
+      z-index: 1;
+      width:10%;
+      height:10%;
+    }
+    @for $r from 1 to 11{ 
+      @for $c from 1 to 11 {
+        .reflection-grid-cell-#{( ($r*10) + $c - 10)}{
+          top:($r*10%)-10%;
+          left:($c*10%)-10%;
+        }
+        .reflection-grid-cell-#{( ($r*10) + $c - 10)}:hover ~ .reflection-content{
+          transform:rotateX((($r*-5)+25deg)) rotateY((-25deg+($c*5)));
+          &:before{
+            transform:translateY(25-(5%*$r));
+          }
+        }
+      }
+    }
+  }
+  
+  // Certificate 7
+
+
+.reflection-container-7{
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    &:before{
+      content:'Hover me ➜';
+      color:#fff;
+      position:absolute;
+      left:-1rem;
+      top:50%;
+      font-size:6vh;
+      transform:translateX(-100%) translateY(-50%);
+    }
+  
+  
+    .reflection-content{
+      height:45vh;
+      width:70vh;
+      background:transparent url(../Images/Certificates/css.png);
+  
+      background-repeat: no-repeat;
+      background-size: 300px !important;
+     
+  
+      background-size:cover;
+      background-position:center;
+      transform:rotateX(0) rotateY(0);
+      pointer-events:none;
+      transition:100ms linear transform;
+      overflow:hidden;
+      &:before{
+        content:'';
+        position:absolute;
+        width:200%;
+        height:200%;
+        left:-50%;
+        top:-50%;
+        background: transparent;
+      }
+    }
+  
+  
+  
+  
+    @media (max-width: 991px) {
+   
+  
+  
+      .reflection-content{
+          height:40vh;
+          width:45vh;
+              background-size: 250px !important;
+               }
+       }
+  
+  
+  
+  
+    .reflection-grid-cell{
+      position:absolute;
+      z-index: 1;
+      width:10%;
+      height:10%;
+    }
+    @for $r from 1 to 11{ 
+      @for $c from 1 to 11 {
+        .reflection-grid-cell-#{( ($r*10) + $c - 10)}{
+          top:($r*10%)-10%;
+          left:($c*10%)-10%;
+        }
+        .reflection-grid-cell-#{( ($r*10) + $c - 10)}:hover ~ .reflection-content{
+          transform:rotateX((($r*-5)+25deg)) rotateY((-25deg+($c*5)));
+          &:before{
+            transform:translateY(25-(5%*$r));
+          }
+        }
+      }
+    }
+  }
+  
+  // Certificate 8
+
+
+.reflection-container-8{
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    &:before{
+      content:'Hover me ➜';
+      color:#fff;
+      position:absolute;
+      left:-1rem;
+      top:50%;
+      font-size:6vh;
+      transform:translateX(-100%) translateY(-50%);
+    }
+  
+  
+    .reflection-content{
+      height:45vh;
+      width:70vh;
+      background:transparent url(../Images/Certificates/prblmsolving.png);
+  
+      background-repeat: no-repeat;
+      background-size: 300px !important;
+     
+  
+      background-size:cover;
+      background-position:center;
+      transform:rotateX(0) rotateY(0);
+      pointer-events:none;
+      transition:100ms linear transform;
+      overflow:hidden;
+      &:before{
+        content:'';
+        position:absolute;
+        width:200%;
+        height:200%;
+        left:-50%;
+        top:-50%;
+        background: transparent;
+      }
+    }
+  
+  
+  
+  
+    @media (max-width: 991px) {
+   
+  
+  
+      .reflection-content{
+          height:40vh;
+          width:45vh;
+              background-size: 250px !important;
+               }
+       }
+  
+  
+  
+  
+    .reflection-grid-cell{
+      position:absolute;
+      z-index: 1;
+      width:10%;
+      height:10%;
+    }
+    @for $r from 1 to 11{ 
+      @for $c from 1 to 11 {
+        .reflection-grid-cell-#{( ($r*10) + $c - 10)}{
+          top:($r*10%)-10%;
+          left:($c*10%)-10%;
+        }
+        .reflection-grid-cell-#{( ($r*10) + $c - 10)}:hover ~ .reflection-content{
+          transform:rotateX((($r*-5)+25deg)) rotateY((-25deg+($c*5)));
+          &:before{
+            transform:translateY(25-(5%*$r));
+          }
+        }
+      }
+    }
+  }
+  
+  // Certificate 9
+// TO ADD COPY THIS CODE WITH .reflection-container-10 CLASSNAME AND PUT CERTIFICAT LINK OER THERE
+
+.reflection-container-9{
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    &:before{
+      content:'Hover me ➜';
+      color:#fff;
+      position:absolute;
+      left:-1rem;
+      top:50%;
+      font-size:6vh;
+      transform:translateX(-100%) translateY(-50%);
+    }
+  
+  
+    .reflection-content{
+      height:45vh;
+      width:70vh;
+      background:transparent url(../Images/Certificates/scolarship.png);
+  
+      background-repeat: no-repeat;
+      background-size: 300px !important;
+     
+  
+      background-size:cover;
+      background-position:center;
+      transform:rotateX(0) rotateY(0);
+      pointer-events:none;
+      transition:100ms linear transform;
+      overflow:hidden;
+      &:before{
+        content:'';
+        position:absolute;
+        width:200%;
+        height:200%;
+        left:-50%;
+        top:-50%;
+        background: transparent;
+      }
+    }
+  
+  
+  
+  
+    @media (max-width: 991px) {
+   
+  
+  
+      .reflection-content{
+          height:40vh;
+          width:45vh;
+              background-size: 250px !important;
+               }
+       }
+  
+  
+  
+  
+    .reflection-grid-cell{
+      position:absolute;
+      z-index: 1;
+      width:10%;
+      height:10%;
+    }
+    @for $r from 1 to 11{ 
+      @for $c from 1 to 11 {
+        .reflection-grid-cell-#{( ($r*10) + $c - 10)}{
+          top:($r*10%)-10%;
+          left:($c*10%)-10%;
+        }
+        .reflection-grid-cell-#{( ($r*10) + $c - 10)}:hover ~ .reflection-content{
+          transform:rotateX((($r*-5)+25deg)) rotateY((-25deg+($c*5)));
+          &:before{
+            transform:translateY(25-(5%*$r));
+          }
+        }
+      }
+    }
+  }
+  

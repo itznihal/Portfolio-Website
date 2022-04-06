@@ -36,9 +36,9 @@ function App() {
     <Home/>
     <About/>
     <Projects/>
-    {/* <About/>
-    <Articles/>
     <Certifications/>
+    <Articles/>
+    {/* <About/>
     <Cocarricular/>
     <Projects/>
     <Contact/> */}

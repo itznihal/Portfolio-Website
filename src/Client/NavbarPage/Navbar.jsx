@@ -29,9 +29,9 @@ const Navbar = () => {
       <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
       <li className="nav-item"><a className="nav-link scrollto active" href="#hero">Home</a></li>
     <li className="nav-item"><a className="nav-link scrollto" href="#about">About</a></li>
-    <li className="nav-item"><a className="nav-link scrollto" href="#services">Projects</a></li>
-    <li className="nav-item"><a className="nav-link scrollto" href="#services">Certificates</a></li>
-    <li className="nav-item"><a className="nav-link scrollto" href="#services">Articles</a></li>
+    <li className="nav-item"><a className="nav-link scrollto" href="#projectss">Projects</a></li>
+    <li className="nav-item"><a className="nav-link scrollto" href="#certification">Certificates</a></li>
+    <li className="nav-item"><a className="nav-link scrollto" href="#articles">Articles</a></li>
    <li className="nav-item"><a className="nav-link scrollto" href="#resume">Resume</a></li>
     <li className="nav-item"><a className="nav-link scrollto " href="#portfolio">Co-curricular</a></li>
     <li className="nav-item"><a className="resumeFont scrollto" href="#contact">Contact</a></li>

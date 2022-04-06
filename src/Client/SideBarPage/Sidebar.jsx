@@ -13,11 +13,11 @@ import { GrLinkedin} from 'react-icons/gr';
 const Sidebar = () => {
   return (
 <>
-<div class="icon-bar">
-  <a href="#" class="twitter cmnicncls"><AiFillGithub class="fa fa-twitter"/></a>
-  <a href="#" class="facebook cmnicncls"><BsInstagram class="fa fa-facebook"/></a>
-  <a href="#" class="linkedin cmnicncls"><GrLinkedin class="fa fa-linkedin"/></a>
-  <a href="#" class="youtube cmnicncls"><RiFacebookCircleFill class="fa fa-youtube"/></a>
+<div className="icon-bar">
+  <a href="#" className="twitter cmnicncls"><AiFillGithub className="fa fa-twitter"/></a>
+  <a href="#" className="facebook cmnicncls"><BsInstagram className="fa fa-facebook"/></a>
+  <a href="#" className="linkedin cmnicncls"><GrLinkedin className="fa fa-linkedin"/></a>
+  <a href="#" className="youtube cmnicncls"><RiFacebookCircleFill className="fa fa-youtube"/></a>
 </div>
 
 
