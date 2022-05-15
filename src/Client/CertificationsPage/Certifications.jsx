@@ -86,7 +86,7 @@ const Certifications = () => {
 {/* Certificates  Cards section Starts */}
 
 
-<section className="product_section layout_padding">
+<section className="product_section layout_padding ">
     <div className="container">
      
       <div className="row">

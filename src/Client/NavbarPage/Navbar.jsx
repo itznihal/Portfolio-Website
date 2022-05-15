@@ -33,7 +33,6 @@ const Navbar = () => {
     <li className="nav-item"><a className="nav-link scrollto" href="#certification">Certificates</a></li>
     <li className="nav-item"><a className="nav-link scrollto" href="#articles">Articles</a></li>
    <li className="nav-item"><a className="nav-link scrollto" href="#resume">Resume</a></li>
-    <li className="nav-item"><a className="nav-link scrollto " href="#portfolio">Co-curricular</a></li>
     <li className="nav-item"><a className="resumeFont scrollto" href="#contact">Contact</a></li>
       </ul>
      
