@@ -89,9 +89,9 @@ const Articles = () => {
     <div className='col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column articlebgimage' data-aos="fade-right" data-aos-delay="100">
     <h1> Articles</h1>
       <h2 className="my-3">
-      I have great interest in learning and working on Javascript frameworks and building efficient and modular projects.Here is a glimpse of some of my top projects, also checkout other interesting projects in my github repository.
+      I like to explore new technologies and build innovative things , along with I'm also love to transforming my learning and researches into easy and understaning way as a blog to help other peoples to learn and also improves my understaning and proficiency in Tech.
       </h2>
-      
+     
       
 
     </div>

@@ -115,7 +115,7 @@ const Resume = () => {
                       <h1 className='toolscls'>About Me:</h1>
                      
                       
-          <h2>Myself , Nihal Parmar , sophomore at Dharmsinh Desai University , pursuing B. Tech in Information Technology . Inquisitive problem solving enthusiast with a strong foundation in data structures and algorithms.I have a passion for software development with a diverse skillset ranging from the MEARN stack to a stronghold on data structures and algorithms to solve real life problems.Always passionate for new things to explore upon, looking for new opportunities to grow.</h2>
+          <h2>Myself , Nihal Parmar , sophomore at Dharmsinh Desai University , pursuing B. Tech in Information Technology .I have a passion for software development with a diverse skillset ranging from the MEARN stack to a stronghold on data structures and algorithms to solve real life problems. I love to code ideas into reality. Always passionate for new things to explore upon, looking for new opportunities to grow.</h2>
         
         
         {/* Roles Section */}

@@ -21,6 +21,17 @@ import main3 from "../Images/Portfolio-Collection/Projects/Covid Project/3.png";
 import main4 from "../Images/Portfolio-Collection/Projects/Covid Project/4.png";
 import main5 from "../Images/Portfolio-Collection/Projects/Covid Project/5.png";
 
+// PROJECT FITBIT
+import fitbit1 from "../Images/FitBit/1.png";
+import fitbit2 from "../Images/FitBit/createexercise.png";
+import fitbit3 from "../Images/FitBit/logged exercises.png";
+import fitbit4 from "../Images/FitBit/features.png";
+import fitbit5 from "../Images/FitBit/recommendedexercises.png";
+import fitbit6 from "../Images/FitBit/ourvalues.png";
+
+
+
+
 
 // PROJECT - E COMMERCE UI
 import Ecommerce1 from "../Images/Portfolio-Collection/Projects/Ecommerce UI/1.png";
@@ -113,7 +124,7 @@ const Projects = () => {
       <div className='col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column' data-aos="fade-right" data-aos-delay="100">
       <h1> Projects</h1>
         <h2 className="my-3">
-        I have great interest in learning and working on Javascript frameworks and building efficient and modular projects.Here is a glimpse of some of my top projects, also checkout other interesting projects in my github repository.
+        I love to code ideas into reality , also I have great interest in learning and working on Javascript frameworks and building efficient and modular projects.Here is a glimpse of some of my top projects, also checkout other interesting projects in my github repository.
         </h2>
         
         
@@ -176,7 +187,7 @@ const Projects = () => {
 						<h3>Best-Bid</h3>
 					
 						<p>
-            <a href="https://github.com/itznihal" className="githubicn"><AiOutlineGithub className="githubicn"/></a>
+            <a href="https://github.com/itznihal/ONLINE-AUCTION" className="githubicn"><AiOutlineGithub className="githubicn"/></a>
             
                         </p>
 
@@ -198,7 +209,7 @@ const Projects = () => {
 
 
 
-						<h2>An online auction is a service in which auction users or participants sell or bid for products or services via the Internet.</h2>
+						<h2>BestBid is a fully functional Online Auction Platform. It allows users to register or log in as a seller or bidder. Seller can add his product for auction with starting price, End date ,time. Also, the seller can update, delete his product while the auction is running. Bidders can find auctions(search and filters) and can make a bid on running auctions with given constraints. After Action ended Bid history is provided and the winner will be announced, the winner can make payment, as well as winner and seller contacts are provided to each other.BestBid also inlcuding features like Featured auction,  Edit Profile, Change Password, and logout.</h2>
 
 
                      
@@ -332,7 +343,86 @@ const Projects = () => {
 						<h3>Covid Guide</h3>
 					
 						<p>
-            <a href="https://github.com/itznihal" className="githubicn"><AiOutlineGithub className="githubicn"/></a>
+            <a href="https://github.com/itznihal/CoviGuide" className="githubicn"><AiOutlineGithub className="githubicn"/></a>
+            
+                        </p>
+
+                        <h1 className='toolscls'>Tools</h1>
+                        
+
+                        <ul class="tags">
+  <li><a href="#" class="tag">Angular</a></li>
+  <li><a href="#" class="tag">Bootstrap</a></li>
+  <li><a href="#" class="tag">Sass</a></li>
+  <li><a href="#" class="tag">Java Script</a></li>
+  
+  
+</ul>
+						<h2>Covi guide is a web-app tracks the ongoing COVID-19 pandemic in all Countries.
+It maintains a daily-updates(counts of the number of
+cases, tests, hospitalizations, and deaths).
+User can Search by county for pendemic information of country</h2>
+
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+
+
+
+
+
+
+{/* FitBit Section  */}
+
+
+
+<div className="product_image_area " >
+<div className="container">
+			<div className="row s_product_inner">
+				<div className="col-lg-6">
+
+
+
+					<div className="s_Product_carousel" data-aos="fade-up-right" data-aos-delay="100">
+					
+<div className='coursel-manage'>
+                        <Swiper tag="section" wrapperTag="ul"
+                        modules={[Navigation, Pagination , A11y , Autoplay]}
+                       id="main"
+                       slidesPerView={1}
+                       navigation
+                       pagination={{ clickable: true }}
+                       autoplay
+                       spaceBetween = {0}
+                        
+                       >
+      <SwiperSlide>     <img className='img-fluid' src={fitbit1}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide>     <img className='img-fluid' src={fitbit2}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide>     <img className='img-fluid' src={fitbit3}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide>     <img className='img-fluid' src={fitbit4}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide>     <img className='img-fluid' src={fitbit5}  alt="auction img" /></SwiperSlide>
+      <SwiperSlide>     <img className='img-fluid' src={fitbit6}  alt="auction img" /></SwiperSlide>
+
+
+      
+                       </Swiper>
+
+</div>
+
+                       
+
+					</div>
+
+
+				</div>
+				<div className="col-lg-5 offset-lg-1">
+					<div className="s_product_text" data-aos="fade-up-left" data-aos-delay="100 ">
+						<h3>FitBit - Workout Assistant</h3>
+					
+						<p>
+            <a href="https://github.com/itznihal/FitBit-Fitness-Assistant" className="githubicn"><AiOutlineGithub className="githubicn"/></a>
             
                         </p>
 
@@ -341,21 +431,33 @@ const Projects = () => {
 
                         <ul class="tags">
   <li><a href="#" class="tag">React</a></li>
-  <li><a href="#" class="tag">Redux</a></li>
+  <li><a href="#" class="tag">Bootstrap</a></li>
+  <li><a href="#" class="tag">Sass</a></li>
   <li><a href="#" class="tag">Node JS</a></li>
+
   <li><a href="#" class="tag">Express JS</a></li>
   <li><a href="#" class="tag">Mongo DB</a></li>
-  <li><a href="#" class="tag">Stripe</a></li>
-  <li><a href="#" class="tag">Cloudinary</a></li>
+  <li><a href="#" class="tag">AOS</a></li>
+
+  <li><a href="#" class="tag">Java Script</a></li>
+  
   
 </ul>
-						<h2>A website made with React in which user can track No. cases  of Covid-19 in India. User can search for particular country and get all covid information about particular country. As well as user can also check current covid cases around his/her.</h2>
+						<h2>FitBit is a webapp allows Users to register and creates schedules on specific date time.
+User can View workout schedules , update and delete.
+Also FitBit recommends schedules to users according to physique.</h2>
 
 					</div>
 				</div>
 			</div>
 		</div>
     </div>
+
+
+
+
+
+
 
 
 {/* Ecommerce Section */}
@@ -501,77 +603,6 @@ const Projects = () => {
 
 
     
-{/* Project - Gym */}
-
-
-<div className="product_image_area " >
-<div className="container">
-			<div className="row s_product_inner">
-				<div className="col-lg-6">
-
-
-
-					<div className="s_Product_carousel" data-aos="fade-up-right" data-aos-delay="100">
-					
-<div className='coursel-manage'>
-                        <Swiper tag="section" wrapperTag="ul"
-                        modules={[Navigation, Pagination , A11y , Autoplay]}
-                       id="main"
-                       slidesPerView={1}
-                       navigation
-                       pagination={{ clickable: true }}
-                       autoplay
-                       spaceBetween = {0}
-                        
-                       >
-      <SwiperSlide >     <img className='img-fluid' src={Gym2}  alt="auction img" /></SwiperSlide>
-      <SwiperSlide >     <img className='img-fluid' src={Gym4}  alt="auction img" /></SwiperSlide>
-      <SwiperSlide >     <img className='img-fluid' src={Gym5}  alt="auction img" /></SwiperSlide>
-      <SwiperSlide >     <img className='img-fluid' src={Gym1}  alt="auction img" /></SwiperSlide>
-      <SwiperSlide >     <img className='img-fluid' src={Gym6}  alt="auction img" /></SwiperSlide>
- 
-
-
-      
-                       </Swiper>
-
-</div>
-
-                       
-
-					</div>
-
-
-				</div>
-				<div className="col-lg-5 offset-lg-1">
-					<div className="s_product_text" data-aos="fade-up-left" data-aos-delay="100 ">
-						<h3>Gym Website</h3>
-					
-						<p>
-            <a href="https://github.com/itznihal" className="githubicn"><AiOutlineGithub className="githubicn"/></a>
-            
-                        </p>
-
-                        <h1 className='toolscls'>Tools</h1>
-                        
-
-                        <ul class="tags">
-  <li><a href="#" class="tag">Html</a></li>
-  <li><a href="#" class="tag">Css</a></li>
-  <li><a href="#" class="tag">JavaScript</a></li>
-  <li><a href="#" class="tag">Bootstrap</a></li>
-  <li><a href="#" class="tag">Aos</a></li>
-  
-  
-</ul>
-						<h2>A Gym Website  where members will view your fitness class schedule, make a booking, and find out what services you offer.The user can add all the necessary details like member name, address , contact details into the system.</h2>
-
-					</div>
-				</div>
-			</div>
-		</div>
-    </div>
-
    
 {/* PROJECT - EXERCISE TRACKER */}
 

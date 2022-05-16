@@ -9,7 +9,7 @@
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("../Images/copy3.jpeg") top right;
+    background: url("../Images/myheroimg.jpg") top right;
     background-size: cover;
     // background-position: center center;
     // background-attachment: fixed; /*only if you want*/
@@ -24,7 +24,7 @@
   #hero {
     width: 100%;
     height: 100vh;
-    background: url("../Images/copy3.jpeg") top right;
+    background: url("../Images/myheroimg.jpg") top right;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed; /*only if you want*/
@@ -282,3 +282,77 @@ text-decoration: none;
     }
     
 }
+
+
+// // Text Transition Css
+// .homepge .wrapper{
+//   display: flex;
+// }
+
+// .homepge .wrapper .static-txt{
+//   color: #ffb727;
+ 
+//   font-size: 60px;
+//   font-weight: 400;
+// }
+
+// .homepge .wrapper .dynamic-txts{
+
+// // background: transparent;
+
+// margin-left: 15px;
+// height: 90px;
+// line-height: 90px;
+// overflow: hidden;
+// }
+
+// .homepge .dynamic-txts li{
+//   color: #ffb727;
+  
+//   list-style: none;
+//   font-size: 60px;
+//   font-weight: 500;
+//   position: relative;
+//   top: 0;
+//   animation: slide 6s steps(4) infinite;
+ 
+// }
+
+// @keyframes slide {
+//   100%{
+//     top: -360px;
+//   }
+// }
+
+// .homepge .dynamic-txts li span{
+
+//   position: relative;
+//   margin: 5px 0;
+//   line-height: 90px;
+// }
+
+// .homepge .dynamic-txts li span::after{
+//   content: "";
+//   position: absolute;
+//   left: 0;
+//   height: 100%;
+//   width: 100%;
+//   background: url("../Images/copy3.jpeg") no-repeat fixed;
+//   // background-color: rgba(255, 0, 0, 0.5);
+//   animation: typing 1.5s ease-in-out infinite alternate-reverse both;
+
+//   // border-bottom: 0px solid #ffb727;
+//   // animation: typing 1.5s steps(1) infinite ;
+
+  
+  
+// }
+
+// @keyframes typing {
+//   40%, 60%{
+//     left: calc(100% + 30px);
+//   }
+//   100%{
+//     left: 0;
+//   }
+// }

@@ -34,7 +34,7 @@ const Certifications = () => {
         <div className="section-title">
           <span>Certifications</span>
           <h2>Certifications</h2>
-          <p>My learning</p>
+          <p>My learnings</p>
         </div>
         </div>
         </section>
@@ -58,7 +58,7 @@ const Certifications = () => {
       <div className='col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column' data-aos="fade-right" data-aos-delay="100">
       <h1>Certifications</h1>
         <h2 className="my-3">
-        I have completed many certification courses and exams as a part of self learning and retained the most important knowledge from that training.
+        I have completed certification courses and exams as a part of self learning and retained the most important knowledge from that training.
         </h2>
         
         
