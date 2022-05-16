@@ -31,8 +31,8 @@ const Home = () => {
 </ul>
 
 
-</div>
-       */}
+</div> */}
+      
       {/* Transitions Text Emds */}
       <h2 data-aos="fade-up" data-aos-delay="100">I'm a Software Developer</h2>
 
